@@ -1,26 +1,23 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Astro Project"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
+  title: "Байгууллагын тань кибер аюулгүй байдлыг хангаж ажиллана."
+  content: "- ийн албан ёсны түнш Cytech Lumix нь Монголын бизнесүүд, төрийн байгууллагуудыг өсөн нэмэгдэж буй кибер халдлагаас хамгаалахад тусалдаг. Бид дэлхийд шалгарсан хамгаалалтын шийдлүүдийг хүргэхийн зэрэгцээ мэргэжлийн гуравдагч талын байгууллагатай хамтран аудит болон эрсдэлийн үнэлгээг хийдэг."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
+    label: "Үйлчилгээг Харах"
     link: "https://github.com/zeon-studio/astroplate"
 
 # Features
 features:
-  - title: "What's Included in Astroplate"
+  - title: "Bitdefender - ийн албан ёсны reseller"
     image: "/images/service-1.png"
-    content: "Astroplate is a comprehensive starter template that includes everything you need to get started with your Astro project. What's Included in Astroplate"
+    content: "Bitdefender нь Ferrarri, Europol, Konica гэх мэтчилэн дэлхийд нэр хүндтэй байгууллагууд болон Монгол улсын 600 гаруй байгууллагатай хамтран ажиллаж хамгаалдаг. AV-Test, AV-Comparatives гэх бие даасан институтуудаас удаа дараалж шагнал болон өндөр үнэлгээнүүдийг авдаг байна."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Astro and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "AV-Comparatives - н тестүүдэд 2021 оноос хойш нийт 18 удаа 1-р байрыг авсан.
+      - "2023 оны AV-TEST шагналын “Хамгийн шилдэг хамгаалалт” болон “Хамгийн өндөр гүйцэтгэл” номинацид ялалт байгуулсан."
+      - "2020 онд Монгол улсад нэвтэрсэн."
     button:
       enable: false
       label: "Get Started Now"

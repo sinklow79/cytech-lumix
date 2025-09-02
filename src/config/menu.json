@@ -1,15 +1,15 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Нүүр",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Бидний тухай",
       "url": "/about"
     },
     {
-      "name": "Elements",
+      "name": "Үйлчилгээнүүд",
       "url": "/elements"
     },
     {

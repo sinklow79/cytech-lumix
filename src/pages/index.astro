@@ -47,16 +47,14 @@ const { banner, features } = homepage.data as Homepage;
             set:html={markdownify(banner.title)}
             class="mb-4 text-h3 lg:text-h1"
           />
-          <p set:html={markdownify(banner.content)} class="mb-8" />
+          <p set:html={markdownify(banner.content)} class="mb-8">
+            <span class="bitdefender-blue">Bitdefender</span>
+          </p>
           {
             banner.button.enable && (
               <a
                 class="btn btn-primary"
-                href={banner.button.link}
-                target={
-                  banner.button.link.startsWith("http") ? "_blank" : "_self"
-                }
-                rel="noopener"
+                href="#features"
               >
                 {banner.button.label}
               </a>
@@ -65,7 +63,7 @@ const { banner, features } = homepage.data as Homepage;
         </div>
         {
           banner.image && (
-            <div class="col-12">
+            <div class="banner col-12">
               <ImageMod
                 src={banner.image}
                 height={380}
@@ -84,7 +82,7 @@ const { banner, features } = homepage.data as Homepage;
   <!-- Features -->
   {
     features.map((feature, index: number) => (
-      <section class={`section-sm ${index % 2 === 0 && "bg-gradient"}`}>
+      <section id="features" class={`section-sm ${index % 2 === 0 && "bg-gradient"}`}>
         <div class="container">
           <div class="row items-center justify-between">
             <div

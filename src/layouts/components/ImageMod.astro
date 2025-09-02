@@ -20,7 +20,6 @@ let {
   src,
   alt,
   width,
-  height,
   loading,
   decoding,
   class: className,
@@ -49,7 +48,6 @@ const isValidPath = images[src] ? true : false;
       src={images[src]() as Promise<{ default: ImageMetadata }>}
       alt={alt}
       width={width}
-      height={height}
       loading={loading}
       decoding={decoding}
       class={className}
